@@ -67,27 +67,12 @@ for response in ["modified_response", "monitored_response"]:
         timestamp
     ])
 
-# monitored_response
-# rows.append([
-#     "Monitored response",
-#     count_data["monitored_response"]["status"]["active"],
-#     area_data["monitored_response"]["status"]["active"],
-#     timestamp
-# ])
-
 with open("data.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f)
-
-    # writer.writerow([
-    #     "Status",
-    #     "Hectares burned",
-    #     "Number of fires",
-    #     "Timestamp (ET)"
-    # ])
-
     writer.writerows(rows)
 
-print("data.csv updated")
+print("data.csv updated");
+
 # return
 # API_TOKEN = os.environ["TOKEN"]
 # URL_BASE = os.environ["URL_BASE"]
