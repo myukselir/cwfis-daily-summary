@@ -19,7 +19,7 @@ print(CHART_ID)
 
 # # UPDATE DATA
 # response = requests.put(
-#     f"${URL_BASE}/charts/{CHART_ID}/data",
+#     f"${URL_BASE}charts/{CHART_ID}/data",
 #     headers=headers,
 #     data=csv_data.encode("utf-8")
 # )
@@ -32,7 +32,7 @@ print(CHART_ID)
 # }
 
 # response = requests.patch(
-#     f"${URL_BASE}/charts/{CHART_ID}",
+#     f"${URL_BASE}charts/{CHART_ID}",
 #     json=payload,
 #     headers=headers
 # )
@@ -41,7 +41,7 @@ print(CHART_ID)
 
 # # PUBLISH CHART
 # response = requests.post(
-#     f"${URL_BASE}/charts/{CHART_ID}/publish",
+#     f"${URL_BASE}charts/{CHART_ID}/publish",
 #     headers=headers
 # )
 
