@@ -4,7 +4,8 @@ import os
 API_TOKEN = os.environ["TOKEN"]
 URL_BASE = os.environ["URL_BASE"]
 CHART_ID = "AUj6h"
-
+print(URL_BASE)
+print(CHART_ID)
 headers = {
     "Authorization": f"Bearer {API_TOKEN}"
 }
