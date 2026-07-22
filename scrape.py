@@ -44,8 +44,8 @@ rows = []
 
 rows.append([
     "Status",
-    "Hectares burned",
     "Number of fires",
+    "Hectares burned",
     "Timestamp (ET)"
 ])
 
