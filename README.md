@@ -1,16 +1,11 @@
-# Fire Stats CSV
+# Nationwide wildfire stats, by level of control
 
-This repository automatically downloads Canadian wildfire statistics every hour and publishes a CSV through GitHub Pages.
+This repository automatically downloads Canadian wildfire statistics and updates a Datawrapper chart.
 
-## CSV
-
-The latest CSV is available at:
-
-data.csv
-
+## Data
 Columns:
 
 - Status
-- Hectares burned
 - Number of fires
-- Timestamp (UTC)
+- Hectares burned
+- Timestamp
