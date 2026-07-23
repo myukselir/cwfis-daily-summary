@@ -6,7 +6,7 @@ concurrency:
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "23 */4 * * *"
 jobs:
   update:
     runs-on: ubuntu-latest
